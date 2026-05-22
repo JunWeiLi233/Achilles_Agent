@@ -1,0 +1,22 @@
+{
+  "name": "achilles-agent-commands",
+  "version": "0.1.0",
+  "description": "Portable auto-achilles command adapters for agent workflows.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "test": "node --test",
+    "privacy:scan": "node .tools/auto-achilles-security-scan.mjs --root .",
+    "check": "npm test && npm run privacy:scan"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    ".achilles-agent.example.json",
+    ".codex/commands",
+    ".tools",
+    "docs",
+    "README.md"
+  ]
+}

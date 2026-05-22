@@ -1,0 +1,16 @@
+{
+  "taskFile": "TASKS.md",
+  "stateDir": ".agent-state",
+  "checks": [],
+  "publish": {
+    "remoteName": "origin",
+    "targetBranch": "main",
+    "targetRemoteUrl": "https://github.com/OWNER/REPOSITORY.git",
+    "requiredIdentityName": "",
+    "requiredIdentityEmail": ""
+  },
+  "privacy": {
+    "exclude": [],
+    "forbid": []
+  }
+}
